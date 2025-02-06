@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import logo from '../../Assets/logo-2.png';
 import './index.css';
 import { useNavigate } from 'react-router-dom';
 import { userAd } from '../../config/firebase';

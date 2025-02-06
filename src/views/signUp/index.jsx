@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { signup } from "../../config/firebase";
 import { useState } from "react";
 import './index.css';
-import logo from '../../assets/logo-2.png'
+import logo from '../../Assets/logo-2.png'
 import { PageWrapper } from "../../components/PageWrapper";
 
 function SignUp() {
