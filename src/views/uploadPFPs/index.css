@@ -1,0 +1,58 @@
+.mainDIV {
+    color: #002F34;
+    margin: 50px auto;
+    max-width: 600px; /* Limit the width for better responsiveness */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.h3 {
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold; /* Make the heading bold */
+}
+
+.h4 {
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.upload-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start instead of center */
+    margin: 20px 0;
+}
+
+.input {
+    border: 1px solid #ccc; /* Add border to the input field */
+    border-radius: 5px;
+    width: 100%; /* Full width for better responsiveness */
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+
+.log-btn {
+    border: 2px solid #002F34; /* Add border on hover */
+    border-radius: 10px;
+    background-color: #002F34;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    width: auto; /* Ensure width is auto to prevent resizing */
+}
+
+.log-btn:hover {
+    background-color: white;
+    color: #002F34;
+    border: 2px solid #002F34; /* Add border on hover */
+}

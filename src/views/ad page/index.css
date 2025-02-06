@@ -1,0 +1,95 @@
+.adpage-main {
+    color: #002F34;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adpage-post-heading {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.adpage-log-btn {
+    border: 2px solid #002F34;
+    border-radius: 10px;
+    background-color: #002F34;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.adpage-log-btn:hover {
+    background-color: white;
+    color: #002F34;
+    border: 2px groove #002F34;
+}
+
+.adpage-form-container {
+    width: 90%; /* Changed to 90% for better responsiveness */
+    max-width: 600px; /* Added max-width for larger screens */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.adpage-form-group {
+    margin-bottom: 20px;
+}
+
+.adpage-input {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.adpage-input:focus {
+    border-color: #002F34;
+    outline: none;
+}
+
+.adpage-input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+
+.adpage-upload-img-btn {
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .adpage-form-container {
+        width: 95%; /* Adjust width for smaller screens */
+    }
+
+    .adpage-log-btn {
+        width: 100%; /* Make button full width on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .adpage-input {
+        padding: 8px; /* Adjust padding for smaller screens */
+    }
+
+    .adpage-post-heading {
+        font-size: 1.5em; /* Adjust heading size for smaller screens */
+    }
+}

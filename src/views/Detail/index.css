@@ -1,0 +1,112 @@
+.detail {
+    margin: auto;
+    width: 70%;
+}
+
+.img-profile-div {
+    display: flex;
+    justify-content: center;
+}
+
+.img-div {
+    width: 50%;
+}
+
+.api-img {
+    width: 100%;    
+}
+
+.profile-div {
+    margin-left: 20px;
+    border: 1px solid #CCD5D6;
+    width: 30%;
+    height: 200px;
+}
+
+.profile-img {
+    width: 80px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.price-div {
+    color: #002F34;
+    max-width: 600px; /* Set a max width for better centering */
+    border: 1px solid #CCD5D6;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px auto; /* Reduced margin */
+}
+
+.description-div {
+    color: #002F34;
+    max-width: 600px; /* Set a max width for better centering */
+    border: 1px solid #CCD5D6;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px auto; /* Reduced margin */
+}
+
+.centered {
+    margin: 0 auto; /* Center the div */
+    text-align: center; /* Center text */
+}
+
+.img-span {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #002F34;
+}
+
+.chat-btn {
+    color: #002F34;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    width: 80%; /* Original width */
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #002F34;
+    transition: 0.5s;
+}
+
+.chat-btn:hover {
+    cursor: pointer;
+    background-color: #002F34;
+    color: white;
+    transform: scale3d(1.1);
+}
+
+.cart-page {
+    visibility: hidden;
+}
+
+@media (max-width: 768px) {
+    .detail {
+        width: 90%; /* Increase width for smaller screens */
+    }
+
+    .img-profile-div {
+        flex-direction: column; /* Stack image and profile vertically */
+        align-items: center; /* Center items */
+    }
+
+    .img-div {
+        width: 100%; /* Full width for image */
+    }
+
+    .profile-div {
+        width: 100%; /* Full width for profile */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .price-div, .description-div {
+        width: 100%; /* Full width for price and description */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+}

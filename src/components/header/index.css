@@ -1,0 +1,174 @@
+.main-div {
+    width: 100%;
+    background-color: white;
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it stays above other content */
+
+}
+
+
+
+.nav-1 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.olx-logo-1 {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.nav-1-lis {
+    font-size: small;
+    margin-left: 10px;
+
+}
+
+.nav-1-car-builing {
+    width: 1rem;
+}
+
+.nav-1-lis:hover {
+    cursor: pointer;
+    color: #3A77FF;
+}
+
+.nav-2 {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.li-widths {
+    padding-left: 0.5rem;
+}
+
+.olx-logo-2 {
+    width: 5rem;
+}
+
+.loc-bar {
+    background-image: url('../../Assets/search.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+    width: 15vw;
+    padding: 10px;
+    padding-left: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.search-bar {
+    background-image: url('../../Assets/search.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
+    width: 30vw;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.search-bar::placeholder {
+    font-size: medium;
+}
+
+.login-btn {
+    background-color: white;
+    color: #002F34;
+    font-size: medium;
+    font-weight: bold;
+    border-bottom: 2px solid #002F34;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.login-btn:hover {
+    border-bottom: 0px;
+}
+
+.sell-btn {
+    width: 80px;
+    color: #002F34;
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+    border-left: 5px solid #FFCE32;
+    border-right: 5px solid #3A77FF;
+    border-top: 5px solid #23E5DB;
+    border-bottom: 5px solid #FFCE32;
+    border-radius: 30px;
+}
+
+.email {
+    color: #002F34;
+    cursor: pointer;
+    font-size: medium;
+}
+
+
+.upload-img-btn {
+    width: 5vw;
+    border: 2px solid #002F34;
+    color: #002F34;
+    background-color: white;
+    padding: 2px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.profile-img-span {
+    width: 50px; /* Adjusted width for profile image */
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px; /* Increased width for profile image */
+    border-radius: 50%;
+}
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .div2 {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .nav-1, .nav-2 {
+        flex-direction: row; /* Maintain row layout for smaller screens */
+        align-items: center; /* Center align items */
+        justify-content: space-between; /* Ensure spacing between items */
+    }
+
+    .nav-1-lis {
+        margin-left: 10px; /* Maintain margin for spacing */
+    }
+
+    .search-bar, .loc-bar {
+        width: 80%; /* Adjust width for smaller screens */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+}
+
+@media (max-width: 574px) {
+    .loc-bar{
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .search-tab{
+        width: 100%;
+    }
+
+    
+}
