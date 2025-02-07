@@ -1,8 +1,8 @@
 import './index.css';
-import fb from '../../Assets/facebook.png';
-import tt from '../../Assets/twitter.png';
-import ins from '../../Assets/instagram.png';
-import you from '../../Assets/youtube.png';
+import fb from '../../assets/facebook.png';
+import tt from '../../assets/twitter.png';
+import ins from '../../assets/instagram.png';
+import you from '../../assets/youtube.png';
 
 
 function Footer() {

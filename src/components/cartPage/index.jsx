@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import emptyCart from '../../Assets/emptycart.jpg';
+import emptyCart from '../../assets/emptycart.jpg'
 import Card from "../card";
 import { useDispatch } from "react-redux";
 import { removeFromCart } from "../../store/adcart";

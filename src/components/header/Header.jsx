@@ -1,7 +1,7 @@
-import logo from '../../Assets/logo.png';
+import logo from '../../assets/logo.png';
 import './index.css';
-import car from '../../Assets/car-front.png';
-import building from '../../Assets/building-2.png';
+import car from '../../assets/car-front.png';
+import building from '../../assets/building-2.png';
 import { useNavigate } from 'react-router-dom';
 import { onAuthStateChanged } from "firebase/auth";
 import { auth, logout } from '../../config/firebase';
